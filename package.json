@@ -25,6 +25,7 @@
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
     "graphql-playground": "^1.0.33",
+    "graphql-tools": "^2.6.1",
     "node-fetch": "^1.7.3",
     "xml2js": "^0.4.19"
   },
