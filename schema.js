@@ -25,7 +25,7 @@ const resolvers = {
             xml.Transaction.TradeMarkTransactionBody[0]
               .TransactionContentDetails[0].TransactionData[0]
               .TradeMarkDetails[0].TradeMark
-        ),
+        )
   },
   TradeMark: {
     name: xml =>
@@ -35,8 +35,8 @@ const resolvers = {
     image: xml =>
       xml.MarkImageDetails
         ? xml.MarkImageDetails[0].MarkImage[0].MarkImageURI[0]
-        : 'https://www.tmdn.org/tmview/trademark/image/placeholder.png',
-  },
+        : 'https://www.tmdn.org/tmview/trademark/image/placeholder.png'
+  }
 }
 
 module.exports = makeExecutableSchema({ typeDefs, resolvers })
