@@ -22,4 +22,4 @@ $ npm start
 
 ## License
 
-[MIT](https://github.com/kutyel/tmview-graphql-endpoint/blob/master/LICENSE.md) © [Flavio Corpa](http://flaviocorpa.com)
+[MIT](https://github.com/kutyel/tmview-graphql-endpoint/blob/master/LICENSE) © [Flavio Corpa](http://flaviocorpa.com)
